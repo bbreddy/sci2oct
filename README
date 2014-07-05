@@ -1,0 +1,14 @@
+Guidelines to run this interface :
+----------------------------------
+
+Step1 : Open Scilab and make ~/.../sci2oct as present working directory.
+
+Step2 : To initailze this interface execute init.sce in Scilab.(exec init.sce)
+
+Step3 : Now your are ready to run Octave commands in Scilab console.
+
+Ex : 
+a=[1,2,3,4;]
+b=[6,7,8,9;]
+
+sum=sci2oct('a+b'); // Output should sum=[7, 8, 11, 13];
